@@ -1,0 +1,22 @@
+{
+  "application": {
+    "name": "Git Commands Demo",
+    "version": "1.0.0",
+    "description": "A repository demonstrating basic Git commands with practical examples"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "git-demo-db"
+  },
+  "server": {
+    "port": 3000,
+    "environment": "development",
+    "debug": true
+  },
+  "features": {
+    "authentication": true,
+    "logging": true,
+    "caching": false
+  }
+}
